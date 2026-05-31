@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MI PÁGINA WEB</title>
+        <link id="EstilosPagina" rel="stylesheet" href="./CSS/CSS Inicio.css">
+        <script src="./JavaScript/Script Inicio.js" defer></script>
+        <script src="./JavaScript/Script ModoOscuro.js" defer></script>
+    </head>
+    <body onload="fInicio()">
+        <div class="contenedor">
+            <header>
+                <h1>Lugares Recomendados Para Viajar</h1>
+                <h3>En esta página web muestro una lista de mis lugares recomendados para viajar</h3>
+            </header>
+            <nav>
+                <ol>
+                    <li>
+                        <a href="./MiPaginaWeb Viajes.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./MiPaginaWeb Lugares.html">Lugares</a>
+                    </li>
+                    <li>
+                        <a href="./MiPaginaWeb Favorito.html">Mi Favorito</a>
+                    </li>
+                    <li>
+                        <a href="./MiPaginaWeb Contacto.html">Contacto</a>
+                    </li>
+                </ol>
+            </nav>
+            <main>
+                <img class="foto" src="./Imagenes/Portada.jpg">
+                <img class="foto" src="./Imagenes/Bali.jpg">
+                <img class="foto"  src="./Imagenes/Maldivas.jpg">
+            </main>
+            <aside>
+                <label class="darkmodebutton">
+                    <p>Modo Oscuro</p>
+                    <input id="darkmode" type="checkbox" onclick="fdarkmode()">
+                </label>
+                <h3>Próximas novedades:</h3>
+                <ul>
+                    <li>Egipto</li>
+                    <li>París</li>
+                    <li>México</li>
+                </ul>
+            </aside>
+            <footer>
+                <h3>1ºASIR Adrián González Amador IES Canarias</h3>
+            </footer>
+        </div>
+    </body>
+</html>
